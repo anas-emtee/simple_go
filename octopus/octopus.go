@@ -14,7 +14,7 @@ func (o Octopus) String() string {
 	return fmt.Sprintf("The octopus's name is %q and is the color %s.", o.Name, o.Color)
 }
 
-func (o *Octopus) reset() {
+func (o *Octopus) Reset() {
 	o.Name = ""
 	o.Color = ""
 }

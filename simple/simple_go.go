@@ -18,5 +18,5 @@ func main() {
 
 	fmt.Println(oct.String())
 
-	oct.reset()
+	oct.Reset()
 }
