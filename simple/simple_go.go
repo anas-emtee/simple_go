@@ -19,4 +19,6 @@ func main() {
 	fmt.Println(oct.String())
 
 	oct.Reset()
+
+	fmt.Println(oct.String())
 }
